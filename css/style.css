@@ -1,0 +1,319 @@
+select::-ms-expand {	display: none; }
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+header {
+    margin-bottom: 94px;
+    background-image: url(/images/header-bg.svg);
+    background-size: cover;
+    color: #fff;
+}
+header>section {
+    padding-top: 60.8px;
+    padding-bottom: 186px;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+.header__menu {
+    align-items: center;
+    margin-bottom: 177px;
+}
+.header__menu-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header__menu-items>li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__info {
+    text-align: center;
+}
+.header__info h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 39px;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.header__info p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.header__info-btn {
+    padding: 17px 52px 16px 53px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #ED4C5C;
+    background-color: #fff;
+}
+main h2 {
+    text-transform: uppercase;
+}
+main img {
+    width: 100%;
+}
+main a {
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration: none;
+    color: #ED4C5C;
+}
+.software {
+    align-items: center;
+    padding-bottom: 95px;
+    text-align: justify;
+}
+.software>div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.video {
+    position: relative;
+}
+.play-btn {
+    position: absolute;
+    top: 50%;
+    transform: translate( -50%,-50%);
+    background-color: transparent;
+    border: none;
+}
+.features {
+    padding-top: 63px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+.features .row {
+    justify-content: center;
+}
+.features h2 {
+    margin-bottom: 63px;
+}
+.features h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.features p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 150%;
+}
+.features a{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+}
+.features__block {
+    position: relative;
+    margin-bottom: 229px;
+}
+.features__subblock {
+    position: absolute;
+    width: 75%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 33px 32px 25px 32px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.technology {
+    padding-top: 63px;
+    text-align: center;
+}
+.technology__num {
+    margin: 0;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+}
+.technology__block {
+    position: relative;
+    margin-bottom: 210px;
+}
+.technology__subblock {
+    position: absolute;
+    width: 75%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -33%);
+}
+.technology__subblock>img {
+    max-width: 80px;
+}
+.technology__subblock>h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.technology__subblock>p {
+    font-size: 12px;
+    line-height: 14px;
+}
+.focused {
+    padding-top: 94px;
+    padding-bottom: 95px;
+    background-color: #ED4C5C;
+    color: #fff;
+}
+.focused .row {
+    align-items: center;
+}
+.focused h2 {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+.focused p {
+    margin-bottom: 42px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+.focused__links>a>img {
+    max-width: 32px;
+}
+.focused__main-img {
+    border-radius: 20px;
+}
+.contact {
+    padding-top: 117px;
+    padding-bottom: 123px;
+}
+.contact-form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact-form>div {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.form-elemets-decor {
+    padding: 21px 31px 20px 31px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.contact__name {
+    display: flex;
+}
+.contact__name>input {
+    width: 50%;
+}
+.contact__name>input:first-child {
+    margin-right: 30px;
+}
+.contact__tel>input {
+    width: 100%;
+}
+.contact__select>select {
+    width: 100%;
+    background-image: url(../images/ChevronDown\(E70D\).svg);
+    background-repeat: no-repeat;
+    background-position: 95% 26px;
+}
+.contact__btn>button {
+    padding: 17px 34px 16px 34px;
+    border: none;
+    border-radius: 6px;
+    background: #ED4C5C;
+    color: #fff;
+}
+footer {
+    padding-top: 85px;
+    padding-bottom: 86px;
+    font-size: 12px;
+    line-height: 150%;
+    background-color: #FAFAFA;
+}
+.footer-blocks>div {
+    margin-bottom: 21px;
+}
+footer h3 {
+    margin: 0;
+    margin-bottom: 33px;
+    font-size: 18px;
+    line-height: 22px;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.our-email{
+    margin-bottom: 11px;
+}
+.our-phone {
+    margin-bottom: 21px;
+}
+.our-socials img {
+    margin-right: 16px;
+}
+.copyright {
+    margin-top: 86px;
+}
+
+@media (max-width: 576px) {
+    .header__menu {
+        margin-bottom: 110px;
+    }
+    .header__info h1 {
+        font-size: 30px;
+        line-height: 140%;
+    }
+    .header__info p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .technology__block {
+        margin-bottom: 140px;
+    }
+    .software>div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .play-btn {
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%,-50%);
+    }
+    .form-elemets-decor {
+        font-size: 12px;
+        padding: 11px 21px 10px 11px;
+    }
+    .contact__select>select {
+        background-position: 97% 17px;
+    }
+}
