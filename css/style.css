@@ -14,7 +14,7 @@ body {
 }
 header {
     margin-bottom: 94px;
-    background-image: url(/images/header-bg.svg);
+    background-image: url(../images/header-bg.svg);
     background-size: cover;
     color: #fff;
 }
